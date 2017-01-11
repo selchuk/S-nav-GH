@@ -1,0 +1,6 @@
+framework module Pods_S_nav_Go_revi_Hat_rlat_c_ {
+  umbrella header "Pods-Sınav Görevi Hatırlatıcı-umbrella.h"
+
+  export *
+  module * { export * }
+}

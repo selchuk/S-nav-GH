@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0F66404D2C0FB8CD46611B /* Pods_S_nav_Go_revi_Hat_rlat_c_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB7C5D22B698DF9DB38AD34 /* Pods_S_nav_Go_revi_Hat_rlat_c_.framework */; };
 		DC3813271E23B8CD004F5B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3813261E23B8CD004F5B31 /* AppDelegate.swift */; };
-		DC3813291E23B8CD004F5B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3813281E23B8CD004F5B31 /* ViewController.swift */; };
+		DC3813291E23B8CD004F5B31 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3813281E23B8CD004F5B31 /* SignInVC.swift */; };
 		DC38132C1E23B8CD004F5B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC38132A1E23B8CD004F5B31 /* Main.storyboard */; };
 		DC38132E1E23B8CD004F5B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC38132D1E23B8CD004F5B31 /* Assets.xcassets */; };
 		DC3813311E23B8CD004F5B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC38132F1E23B8CD004F5B31 /* LaunchScreen.storyboard */; };
+		DC3813391E23BDBD004F5B31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC3813381E23BDBD004F5B31 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DB7C5D22B698DF9DB38AD34 /* Pods_S_nav_Go_revi_Hat_rlat_c_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S_nav_Go_revi_Hat_rlat_c_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A944CF87CAEFEC02625DEFAE /* Pods-Sınav Görevi Hatırlatıcı.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sınav Görevi Hatırlatıcı.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sınav Görevi Hatırlatıcı/Pods-Sınav Görevi Hatırlatıcı.debug.xcconfig"; sourceTree = "<group>"; };
 		DC3813231E23B8CD004F5B31 /* Sınav Görevi Hatırlatıcı.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sınav Görevi Hatırlatıcı.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3813261E23B8CD004F5B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC3813281E23B8CD004F5B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC3813281E23B8CD004F5B31 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		DC38132B1E23B8CD004F5B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC38132D1E23B8CD004F5B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3813301E23B8CD004F5B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC3813321E23B8CD004F5B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3813381E23BDBD004F5B31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC5FE13F1E24262400412F36 /* Sınav Görevi Hatırlatıcı.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sınav Görevi Hatırlatıcı.entitlements"; sourceTree = "<group>"; };
+		FDC85C817D2380FE91F442B0 /* Pods-Sınav Görevi Hatırlatıcı.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sınav Görevi Hatırlatıcı.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sınav Görevi Hatırlatıcı/Pods-Sınav Görevi Hatırlatıcı.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +36,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0F66404D2C0FB8CD46611B /* Pods_S_nav_Go_revi_Hat_rlat_c_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08D99D926E8FAC69D89B9076 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A944CF87CAEFEC02625DEFAE /* Pods-Sınav Görevi Hatırlatıcı.debug.xcconfig */,
+				FDC85C817D2380FE91F442B0 /* Pods-Sınav Görevi Hatırlatıcı.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DC38131A1E23B8CD004F5B31 = {
 			isa = PBXGroup;
 			children = (
 				DC3813251E23B8CD004F5B31 /* Sınav Görevi Hatırlatıcı */,
 				DC3813241E23B8CD004F5B31 /* Products */,
+				08D99D926E8FAC69D89B9076 /* Pods */,
+				EB132EADBE82B5A13A1617A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,24 @@
 		DC3813251E23B8CD004F5B31 /* Sınav Görevi Hatırlatıcı */ = {
 			isa = PBXGroup;
 			children = (
+				DC5FE13F1E24262400412F36 /* Sınav Görevi Hatırlatıcı.entitlements */,
+				DC3813381E23BDBD004F5B31 /* GoogleService-Info.plist */,
 				DC3813261E23B8CD004F5B31 /* AppDelegate.swift */,
-				DC3813281E23B8CD004F5B31 /* ViewController.swift */,
+				DC3813281E23B8CD004F5B31 /* SignInVC.swift */,
 				DC38132A1E23B8CD004F5B31 /* Main.storyboard */,
 				DC38132D1E23B8CD004F5B31 /* Assets.xcassets */,
 				DC38132F1E23B8CD004F5B31 /* LaunchScreen.storyboard */,
 				DC3813321E23B8CD004F5B31 /* Info.plist */,
 			);
 			path = "Sınav Görevi Hatırlatıcı";
+			sourceTree = "<group>";
+		};
+		EB132EADBE82B5A13A1617A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB7C5D22B698DF9DB38AD34 /* Pods_S_nav_Go_revi_Hat_rlat_c_.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +100,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC3813351E23B8CD004F5B31 /* Build configuration list for PBXNativeTarget "Sınav Görevi Hatırlatıcı" */;
 			buildPhases = (
+				9DAF9BE0BDB72F1530F6FEA4 /* [CP] Check Pods Manifest.lock */,
 				DC38131F1E23B8CD004F5B31 /* Sources */,
 				DC3813201E23B8CD004F5B31 /* Frameworks */,
 				DC3813211E23B8CD004F5B31 /* Resources */,
+				C658656C295D305EF0AB7799 /* [CP] Embed Pods Frameworks */,
+				3D92402B5FD54E66A31327CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +130,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 2QFUER6RW8;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC3813311E23B8CD004F5B31 /* LaunchScreen.storyboard in Resources */,
+				DC3813391E23BDBD004F5B31 /* GoogleService-Info.plist in Resources */,
 				DC38132E1E23B8CD004F5B31 /* Assets.xcassets in Resources */,
 				DC38132C1E23B8CD004F5B31 /* Main.storyboard in Resources */,
 			);
@@ -132,12 +170,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D92402B5FD54E66A31327CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sınav Görevi Hatırlatıcı/Pods-Sınav Görevi Hatırlatıcı-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAF9BE0BDB72F1530F6FEA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C658656C295D305EF0AB7799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sınav Görevi Hatırlatıcı/Pods-Sınav Görevi Hatırlatıcı-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC38131F1E23B8CD004F5B31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3813291E23B8CD004F5B31 /* ViewController.swift in Sources */,
+				DC3813291E23B8CD004F5B31 /* SignInVC.swift in Sources */,
 				DC3813271E23B8CD004F5B31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,10 +345,13 @@
 		};
 		DC3813361E23B8CD004F5B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A944CF87CAEFEC02625DEFAE /* Pods-Sınav Görevi Hatırlatıcı.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sınav Görevi Hatırlatıcı/Sınav Görevi Hatırlatıcı.entitlements";
 				DEVELOPMENT_TEAM = 2QFUER6RW8;
 				INFOPLIST_FILE = "Sınav Görevi Hatırlatıcı/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.teksatirkod.S-nav-Go-revi-Hat-rlat-c-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +361,13 @@
 		};
 		DC3813371E23B8CD004F5B31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC85C817D2380FE91F442B0 /* Pods-Sınav Görevi Hatırlatıcı.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sınav Görevi Hatırlatıcı/Sınav Görevi Hatırlatıcı.entitlements";
 				DEVELOPMENT_TEAM = 2QFUER6RW8;
 				INFOPLIST_FILE = "Sınav Görevi Hatırlatıcı/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.teksatirkod.S-nav-Go-revi-Hat-rlat-c-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +394,7 @@
 				DC3813371E23B8CD004F5B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
