@@ -6,8 +6,11 @@ target 'Sınav Görevi Hatırlatıcı' do
   use_frameworks!
 
   # Pods for Sınav Görevi Hatırlatıcı
-  pod 'Firebase'
+  pod 'Firebase/Core'
   pod 'Firebase/Messaging'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKCoreKit'
+  pod 'SwiftKeychainWrapper'
 end
